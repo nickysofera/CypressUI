@@ -16,7 +16,7 @@ function generatedRandomArray (length){
 }
 
 function generatedRandomString(length) {
-    const characters = ' ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:\'",.<>?/\\ `';
     let result = '';
     for (let i = 0; i < length; i++) {
        const randomIndex = Math.floor(Math.random() * characters.length);

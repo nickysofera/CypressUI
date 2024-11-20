@@ -1,4 +1,4 @@
-const { generatedRandomArray, generatedRandomString } = require("../../support/utilities_array")
+const { generatedRandomArray, generatedRandomString } = require("../../support/utilities.js")
 
 describe('Register functionality', () => {
     beforeEach(() => {
